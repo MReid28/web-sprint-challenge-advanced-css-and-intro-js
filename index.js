@@ -232,8 +232,8 @@ artists[9].name = 'Vincent Van Dough'
  
  Example, if getArtistByIndex is invoked with the artists array and the number 0, it will return `the artist at index 0 is Amedeo Modigliani` */
 
-function getArtistByIndex(arr) {
-  /*Your Code Here*/
+function getArtistByIndex(arr, number) {
+  return `the artist at index ${arr[number].id} is ${arr[number].name}`
 }  
 
 
@@ -246,7 +246,7 @@ Use get20s to do the following:
 Example born in 1901 and died in 1959 - included -- born in 1889 and died in 1925 not included
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
-function get20s(/*Your Code Here*/){
+function get20s(arr){
   /*Your Code Here*/
 }
 
