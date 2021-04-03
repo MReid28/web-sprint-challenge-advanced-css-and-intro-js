@@ -247,7 +247,7 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(arr){
-  /*Your Code Here*/
+  
 }
 
 
@@ -261,8 +261,10 @@ function get20s(arr){
  
  For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
-function removeArtist(/*Your Code Here*/){
-   /*Your Code Here*/
+function removeArtist(arr, number){
+   const index = arr.indexOf(number);
+   arr.splice(index, 1);
+   return arr.length;
 }
    
 
