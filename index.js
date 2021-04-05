@@ -247,9 +247,9 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 
 function get20s(years){
-  if (years <= 2000){
-    return years.name;
-  }
+  let getyears = []
+
+
 
   
 }
@@ -303,7 +303,8 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(arr){
+function lotsOfArt(artists){
+  
   
 }
 
